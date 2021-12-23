@@ -1,0 +1,167 @@
+.line-bar{
+    display: none;
+}
+  /* ----------Main Nav Hover---------- */
+
+  .dropbtn {
+    background-color: #04AA6D;
+    color: rgb(16, 12, 12);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown {
+    display: inline-block;
+  } 
+  .dropdown-content {
+    /* padding: 20px; */
+    left: 0;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    height: fit-content;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+      color: rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(153, 153, 153); 
+    width: fit-content;
+  }
+  
+  .dropdown:hover .dropdown-content  {display: block;}
+  
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+  .dropdown-content .goal-dropdown{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 70px 40px;
+  }
+  .dropdown-content .goal-feature{
+    /* background-color: #04AA6D; */
+    float: right;
+    padding: 10px 0 0 0;
+    position: absolute;
+    top: 4%;
+    left: 60%;
+    width: auto;
+    height: 90%;
+    border-left: 1px solid rgb(177, 177, 177);
+  }
+  .dropdown-content .goal-feature{
+    /* background-color: #04AA6D; */
+    float: right;
+    padding: 10px 0 10px 0;
+    position: absolute;
+    top: 4%;
+    left: 60%;
+    width: auto;
+    height:min-content;
+    /* border-left: 1px solid rgb(177, 177, 177); */
+  }
+  .dropdown-content .goal-feature .box-feature{
+    text-align: center;
+    border: 1px solid #000;
+    margin: 20px 40px 0 40px;
+    padding: 10px;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom right, rgba(84, 3, 109, 0.973), rgb(211, 8, 76), rgb(252, 84, 33));
+  }
+  .goal-feature .box-title{
+      color: rgb(73, 73, 73);
+      font-weight: normal;
+      top: 40%;
+  }
+  .goal-dropdown h2{
+      color: #fff;
+      cursor:default;
+  }
+  .goal-feature img{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+  }
+  .goal-feature  h2{
+      font-size: 18px;
+      padding: 10px;
+      color: #fff;
+      font-weight: bold;
+  }
+  .goal-feature p{
+      color: #fff;
+      font-size: 15px;
+  }
+   .goal-feature .box-image{
+    width: 40%;
+  }
+  .goal-feature .box-info{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+  }
+  .goal-feature .box-info a{
+      color: #fff;
+      font-weight: bold;
+      margin-top: 10px;
+      padding: 8px 30px;
+      border-radius: 10px;
+      border: 2px solid #e2c380;
+  }
+  .goal-feature .box-info a:hover{
+      color: rgb(187, 176, 176);
+      border: 2px solid rgb(187, 187, 187);
+  }
+  .goal-feature .box-title{
+      margin: 50px 0 0 40px;
+      font-weight: normal;
+      font-size: 15px;
+  }
+
+  /* -------------------------------- */
+  .dropdown-content .goal-feature .box-feature1{
+    text-align: center;
+    border: 1px solid #000;
+    margin: 20px 40px 0 40px;
+    padding: 10px;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom right, rgba(152, 214, 116, 0.973), rgb(174, 211, 8), rgb(6, 126, 52));
+  }
+  .dropdown-content .goal-feature .box-feature2{
+    text-align: center;
+    border: 1px solid #000;
+    margin: 20px 40px 0 40px;
+    padding: 10px;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom right, rgba(76, 157, 211, 0.973), rgb(96, 208, 228), rgb(5, 51, 165));
+  }
+  .dropdown-content .goal-feature .box-feature3{
+    text-align: center;
+    border: 1px solid #000;
+    margin: 20px 40px 0 40px;
+    padding: 10px;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom right, rgba(182, 74, 142, 0.973), rgb(209, 84, 117), rgb(46, 2, 118));
+  }
